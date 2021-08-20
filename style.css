@@ -1,0 +1,49 @@
+body {
+    color: white;
+    font-family: cursive;
+}
+
+h1 {
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+hr {
+    background-color: aqua;
+    height: 3px;
+    width: 30%;
+}
+
+.pic {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    border-width: 7px;
+    border-style: double;
+    border-color: aqua;
+    width: 250px;
+    height: 250px;
+}
+
+#camera,
+#captured_picture {
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: aqua;
+}
+
+#obj_name,
+#acc {
+    background-color: white;
+    color: crimson;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    display: none;
+}
